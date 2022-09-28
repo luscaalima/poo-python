@@ -7,5 +7,6 @@ class Pessoa :
     
 #Herança    
 class Funcionario(Pessoa):
-       def __init__(self, nome, idade,email):
+       def __init__(self, nome, idade,email,idFuncionario):
+        self.idFuncionario = idFuncionario
         super().__init__(nome, idade,email)
